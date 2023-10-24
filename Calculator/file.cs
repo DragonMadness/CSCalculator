@@ -33,7 +33,7 @@ namespace Calculator
                 Console.WriteLine("\t* - multiply");
                 Console.WriteLine("\t/ - divide");
                 Console.WriteLine("\tsin - sinus");
-                Console.WriteLine("\tccos - cosinus");
+                Console.WriteLine("\tcos - cosinus");
                 string oper = Console.ReadLine();
 
                 if (oper != "sin" && oper != "cos") // sin and cos functions require only one argument
